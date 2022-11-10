@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<!-- saved from url=(0075)https://www.hydrationforhealth.com/en/hydration-tools/hydration-calculator/ -->
+<html class="no-js" lang="en" style="--vh:5.91px;">
+
+<head>
+    <link type="text/css" href="./healt_files/main.a77749888fdf24bdceaa.css" rel="stylesheet">
+    <link type="text/css" href="./healt2_files/main.a77749888fdf24bdceaa.css" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
+    <!-- <link rel="stylesheet" href="style/style2.css"> -->
+    <title>Water Calculator</title>
+    <link rel="icon" href="healt_files/sport.svg" type="image/icon type">
+</head>
+
+<body class="">
+
+    <div class="slideshow-container">
+        <!-- DARI SINI 1  -->
+
+        <div class="mySlides fade">
+            <section class="tool-hydration-calculator">
+
+                <!-- dari sini -->
+
+                <section id="hydration-calculator" class="hydration-calculator-container">
+                    
+                    <!---->
+                    <div class="step-content">
+                        <div class="step step-1">
+                            <h3>Tentang Kamu</h3>
+                            <div class="cards-container">
+                                <div class="card">
+                                    <h4>Kelamin</h4>
+                                    <div class="gender">
+                                        <div class="gender-toggle">
+                                            <div class="male active"><img src="./healt_files/male.svg" width="25"
+                                                    height="62" alt="Gender">
+                                                <!---->
+                                            </div>
+                                            <div class="female">
+                                                <!----> <img width="29" height="62" src="./healt_files/female-gray.svg"
+                                                    alt="Gender"></div>
+                                        </div>
+                                        <!---->
+                                    </div>
+                                    <!---->
+                                    <aside class="info-toggler"><img src="./healt_files/info.svg" alt="">
+                                        <!---->
+                                    </aside>
+                                </div>
+                                <div class="card">
+                                    <div class="age">
+                                        <h4>Umur</h4>
+                                        <div class="age-input-container">
+                                            <div class="age-input">
+                                                <div class="input-container">
+                                                    <span id="demoRange"></span>
+                                                    <div class="unit">Umur</div>
+                                                </div>
+                                            </div>
+                                            <div class="age-slider">
+                                                <!-- <div class="vue-slider vue-slider-ltr"
+                                                style="padding: 7px 0px; width: auto; height: 10px;">
+                                                <div class="vue-slider-rail">
+                                                    <div class="vue-slider-process"
+                                                        style="height: 100%; top: 0px; left: 0%; width: 11.6667%; transition-property: width, left; transition-duration: 0.3s;">
+                                                    </div>
+                                                    <div aria-valuetext="25" class="vue-slider-dot" role="slider"
+                                                        aria-valuenow="25" aria-valuemin="18" aria-valuemax="78"
+                                                        aria-orientation="horizontal" tabindex="0"
+                                                        style="width: 14px; height: 14px; transform: translate(-50%, -50%); top: 50%; left: 11.6667%; transition: left 0.3s ease 0s;">
+                                                        <div class="vue-slider-dot-handle"></div>
+                                                    </div>
+                                                </div>
+                                            </div> -->
+                                                <input type="range" min="10" max="100" value="0" class="slider"
+                                                    id="myRange">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!---->
+                                    <aside class="info-toggler"><img src="./healt_files/info.svg" alt="">
+                                        <!---->
+                                    </aside>
+                                </div>
+
+
+                                <!-- <button onclick="increment()">+</button>
+                            <input id=demoInput type=number min=1 max=110>
+                            <button onclick="decrement()">-</button>
+                            <script>
+                               function increment() {
+                                  document.getElementById('demoInput').stepUp();
+                               }
+                               function decrement() {
+                                  document.getElementById('demoInput').stepDown();
+                               }
+                            </script> -->
+                                <div class="card">
+                                    <div class="weight">
+                                        <h4>Berat</h4>
+                                        <div class="increment-unit">
+                                            <div class="left" onclick="decrement()"><span>-</span></div>
+                                            <div class="middle">
+                                                <div class="input-container"><input id=demoInput type=number min=30
+                                                        max=110>
+                                                    <div class="unit">kg</div>
+                                                </div>
+                                            </div>
+                                            <div class="right" onclick="increment()"><span>+</span></div>
+                                        </div>
+                                    </div>
+                                    <!---->
+                                    <aside class="info-toggler"><img src="./healt_files/info.svg" alt="">
+                                        <!---->
+                                    </aside>
+                                </div>
+                                <div class="card">
+                                    <div class="height">
+                                        <h4>Tinggi</h4>
+                                        <div class="increment-unit">
+                                            <div class="left" onclick="decrementHeight()"><span>-</span></div>
+                                            <div class="middle">
+                                                <div class="input-container"><input id=InputHeight type=number min=120
+                                                        max=200>
+                                                    <div class="unit">cm</div>
+                                                </div>
+                                            </div>
+                                            <div class="right" onclick="incrementHeight()"><span>+</span></div>
+                                        </div>
+                                    </div>
+                                    <!---->
+                                    <aside class="info-toggler"><img src="./healt_files/info.svg" alt="">
+                                        <!---->
+                                    </aside>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pagination">
+                        <div class="pagination-left"><button disabled="disabled" type="button"
+                                class="pagination-button next">Kembali</button></div>
+                        <div class="pagination-center">
+                            <div class="pagination-dot active"></div>
+                            <div class="pagination-dot"></div>
+                            <div class="pagination-dot"></div>
+                        </div>
+                        <div class="pagination-right next" id="page1"><button type="button"
+                                class="pagination-button next shown"><span>Lanjut</span></button></div>
+                    </div>
+                </section>
+
+            </section>
+        </div>
+
+        <div class="mySlides fade">
+            <section class="tool-hydration-calculator">
+
+                <section id="hydration-calculator" class="hydration-calculator-container">
+                    
+                    <!---->
+                    <div class="step-content">
+                        <div class="step step-3">
+                            <h3>Asupan cairan harian</h3>
+                            <div class="cards-container">
+                                <div class="card">
+                                    <div class="intake">
+                                        <h4 class="has-icon">Berapa banyak air yang telah kamu minum?</h4>
+                                        <div class="liquids-container">
+                                            <div class="liquid">
+                                                <div class="title">
+                                                    Kecil
+                                                    <small>(500 ml)</small></div>
+                                                <div class="increment-unit">
+                                                    <div class="left" onclick="decrementSmall()"><span>-</span></div>
+                                                    <div class="middle-glass">
+                                                        <div><img src="./healt_files/diet-soda.svg" alt="Water"
+                                                                id="InputSmallImg"></div>
+                                                        <div class="input-container-glass"><input id="InputSmall"
+                                                                type=number min=0 max=110>
+                                                        </div>
+                                                    </div>
+                                                    <div class="right" onclick="incrementSmall()"><span>+</span></div>
+                                                </div>
+                                            </div>
+                                            <div class="liquid">
+                                                <div class="title">
+                                                    Sedang
+                                                    <small>(750 ml)</small></div>
+                                                <div class="increment-unit">
+                                                    <div class="left" onclick="decrementMedium()"><span>-</span></div>
+                                                    <div class="middle-glass">
+                                                        <div><img src="./healt_files/sport.svg" alt="Water"
+                                                                id="InputMediumImg"></div>
+                                                        <div class="input-container-glass"><input id="InputMedium"
+                                                                type=number min=0 max=110>
+                                                        </div>
+                                                    </div>
+                                                    <div class="right" onclick="incrementMedium()"><span>+</span></div>
+                                                </div>
+                                            </div>
+                                            <div class="liquid">
+                                                <div class="title">
+                                                    Besar
+                                                    <small>(1.5 l)</small></div>
+                                                <div class="increment-unit">
+                                                    <div class="left" onclick="decrementLarge()"><span>-</span></div>
+                                                    <div class="middle-glass">
+                                                        <img src="./healt_files/water.svg" alt="Water"
+                                                            id="InputLargeImg">
+                                                        <div class="input-container-glass"><input id="InputLarge"
+                                                                type=number min=0 max=110>
+                                                        </div>
+                                                    </div>
+                                                    <div class="right" onclick="incrementLarge()"><span>+</span></div>
+                                                </div>
+                                            </div>
+                                            
+                                          
+                                            <div class="hide-bottom"></div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pagination">
+                        <div class="pagination-right next" id="back1"><button type="button"
+                            class="pagination-button next shown"><span>Kembali</span></button></div>
+                        <div class="pagination-center">
+                            <div class="pagination-dot"></div>
+                            <div class="pagination-dot active"></div>
+                            <div class="pagination-dot"></div>
+                        </div>
+                        <!-- <div class="pagination-right"><button type="button" class="pagination-button next shown prev"
+                                onclick="plusSlides(1)"><span>See
+                                    results</span></button></div> -->
+
+                        <div class="pagination-right next" id="result"><button type="button"
+                                class="pagination-button next shown"><span>Hasil</span></button></div>
+                    </div>
+                </section>
+
+
+            </section>
+        </div>
+
+        <div class="mySlides fade">
+            <section class="tool-hydration-calculator">
+                <section id="hydration-calculator" class="hydration-calculator-container">
+                    
+                    <!---->
+                    <div class="step-content">
+                        <div class="step step-4">
+                            <h3>Hasil</h3>
+                            <div class="cards-container">
+                                <!---->
+                                <div class="left">
+                                    <div class="card">
+                                        <h4>Kebutuhan Cairan Kamu</h4>
+                                        <p id="selisihStatus">
+                                            
+                                        </p>
+                                        <!-- <div class="more-link"><a>Findout more</a></div> -->
+                                    </div>
+                                    <div class="card">
+                                        <h4>Taukah kamu ?</h4>
+                                        <p id="quot">
+                                            
+                                        </p>
+                                        <!-- <div class="more-link"><a>Hints and Tips</a></div> -->
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="water">
+                                        <h4 class="has-icon">Cairan dalam tubuh</h4>
+                                        <div class="result">
+                                            <div class="title">
+                                                Cairan yang telah kamu minum
+                                            </div>
+                                            <div class="liters" id="kebutuhanCairan">2.7 <small>L</small></div>
+                                        </div>
+                                        <div class="result">
+                                            <div class="title">
+                                                Kebutuhan cairan harian
+                                            </div>
+                                            <div class="liters" id="sisaCairan">0 <small>L</small></div>
+                                        </div>
+                                        <div class="result">
+                                            <div class="title">
+                                                Status Kamu
+                                            </div>
+                                            <div class="liters" id="yourStatus" style="font-size: 20px; font-weight:700;">3.5 <small>L</small></div>
+                                        </div>
+                                        
+                                    </div>
+                                    <!---->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pagination">
+                        <!-- <div class="pagination-left"><button type="button" class="pagination-button shown next"
+                                id="back2">Previousss</button></div> -->
+                                <div class="pagination-right next" id="back2"><button type="button"
+                                    class="pagination-button next shown"><span>Kembali</span></button></div>
+                                <div class="pagination-center">
+                            <div class="pagination-dot"></div>
+                            <div class="pagination-dot"></div>
+                            <div class="pagination-dot active"></div>
+                        </div>
+                        
+                    </div>
+                </section>
+
+            </section>
+        </div>
+        <!-- SAMPE SINI -->
+        <!-- <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a> -->
+    </div>
+    <script src="index.js"></script>
+
+
+</body>
+
+</html>

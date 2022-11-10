@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   version="1.1"
+   width="25"
+   height="62"
+   viewBox="0 0 25 62"
+   id="svg2">
+  <metadata
+     id="metadata20">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs4">
+    <path
+       d="m 293.074,1006 c -1.651,0 -3.066,0.61 -4.26,1.79 -1.198,1.232 -1.814,2.665 -1.814,4.26 v 14.756 c 0,0.553 0.19,1.053 0.616,1.458 0.395,0.4 0.887,0.58 1.444,0.58 0.641,0 1.133,-0.18 1.528,-0.58 0.343,-0.405 0.523,-0.904 0.523,-1.458 v -13.194 h 1.067 v 36.529 c 0,0.703 0.307,1.354 0.892,1.854 0.548,0.553 1.19,0.79 1.927,0.79 0.799,0 1.44,-0.236 1.963,-0.79 0.552,-0.5 0.803,-1.15 0.803,-1.854 v -21.175 h 1.195 v 21.175 c 0,0.703 0.276,1.354 0.795,1.854 0.522,0.553 1.198,0.79 2.024,0.79 0.702,0 1.318,-0.236 1.871,-0.79 0.518,-0.5 0.756,-1.15 0.756,-1.854 v -36.529 h 1.115 v 13.194 c 0,0.553 0.175,1.053 0.544,1.458 0.44,0.4 0.948,0.58 1.502,0.58 0.65,0 1.142,-0.18 1.51,-0.58 0.334,-0.405 0.545,-0.904 0.545,-1.458 v -14.754 c 0,-1.592 -0.58,-3.03 -1.778,-4.258 -1.169,-1.183 -2.57,-1.789 -4.287,-1.789 h -10.481 z"
+       id="iupxa" />
+    <path
+       d="m 297.985,1003.008 c 1.369,0 2.577,-0.45 3.549,-1.391 0.971,-0.967 1.466,-2.161 1.466,-3.6 0,-1.373 -0.5,-2.55 -1.47,-3.52 -0.976,-1 -2.18,-1.497 -3.545,-1.497 -1.438,0 -2.647,0.498 -3.557,1.497 -0.97,0.97 -1.428,2.147 -1.428,3.52 0,1.442 0.457,2.637 1.428,3.6 0.915,0.94 2.124,1.391 3.557,1.391 z"
+       id="iupxb" />
+  </defs>
+  <g
+     id="g8">
+    <g
+       transform="translate(-286,-992)"
+       id="g10">
+      <use
+         id="use12"
+         style="fill:#ffffff;fill-opacity:0;stroke:#008fd6;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:50;stroke-opacity:1"
+         x="0"
+         y="0"
+         width="25"
+         height="62"
+         xlink:href="#iupxa" />
+    </g>
+    <g
+       transform="translate(-286,-992)"
+       id="g14">
+      <use
+         id="use16"
+         style="fill:#ffffff;fill-opacity:0;stroke:#008fd6;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:50;stroke-opacity:1"
+         x="0"
+         y="0"
+         width="25"
+         height="62"
+         xlink:href="#iupxb" />
+    </g>
+  </g>
+</svg>
